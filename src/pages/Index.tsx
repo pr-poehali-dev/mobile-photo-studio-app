@@ -102,7 +102,7 @@ export default function Index() {
             onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }}
             className="font-cormorant text-xl sm:text-2xl tracking-[0.2em] font-light"
           >
-            LUMIÈRE
+            Фотостудия НВ
           </a>
           <div className="hidden md:flex items-center gap-8">
             {navLinks.map((l) => (
@@ -151,7 +151,7 @@ export default function Index() {
       {/* HERO */}
       <section className="relative h-screen flex items-end pb-16 sm:pb-24">
         <div className="absolute inset-0 image-hover">
-          <img src={HERO_IMG} alt="Фотостудия LUMIÈRE" className="w-full h-full object-cover" />
+          <img src={HERO_IMG} alt="Фотостудия Фотостудия НВ" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-black/10" />
         </div>
         <div className="relative z-10 max-w-6xl mx-auto px-6 sm:px-8 text-white">
@@ -375,8 +375,8 @@ export default function Index() {
       {/* FOOTER */}
       <footer className="border-t border-border py-8 px-6">
         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="font-cormorant text-xl tracking-[0.2em]">LUMIÈRE</p>
-          <p className="text-[11px] text-muted-foreground text-center">© 2024 Фотостудия LUMIÈRE. Все права защищены.</p>
+          <p className="font-cormorant text-xl tracking-[0.2em]">Фотостудия НВ</p>
+          <p className="text-[11px] text-muted-foreground text-center">© 2024 Фотостудия Фотостудия НВ. Все права защищены.</p>
           <button
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
             className="flex items-center gap-2 text-[11px] text-muted-foreground hover:text-foreground transition-colors"
