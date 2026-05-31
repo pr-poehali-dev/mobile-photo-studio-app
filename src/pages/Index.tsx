@@ -323,7 +323,7 @@ export default function Index() {
               {[
                 { icon: "MapPin", label: "АДРЕС", content: ["ул. Пушкина, 14, 2 этаж, офис 201", "Москва, метро Тверская"] },
                 { icon: "Phone", label: "ТЕЛЕФОН", content: ["+7 (495) 123-45-67"] },
-                { icon: "Mail", label: "ПОЧТА", content: ["hello@lumiere.ru"] },
+                { icon: "Mail", label: "ПОЧТА", content: ["photo_nv@mail.ru"] },
                 { icon: "Clock", label: "РЕЖИМ РАБОТЫ", content: ["Пн–Пт: 10:00 — 20:00", "Сб–Вс: 10:00 — 18:00"] },
               ].map((item) => (
                 <div key={item.label} className="flex items-start gap-4">
