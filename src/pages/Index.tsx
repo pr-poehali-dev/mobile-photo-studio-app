@@ -322,9 +322,9 @@ export default function Index() {
             <div className="space-y-6">
               {[
                 { icon: "MapPin", label: "АДРЕС", content: ["ул. Пушкина, 14, 2 этаж, офис 201", "Москва, метро Тверская"] },
-                { icon: "Phone", label: "ТЕЛЕФОН", content: ["+7 (495) 123-45-67"] },
+                { icon: "Phone", label: "ТЕЛЕФОН", content: ["+7 906 805-54-00", "+7 34374 6-04-00"] },
                 { icon: "Mail", label: "ПОЧТА", content: ["photo_nv@mail.ru"] },
-                { icon: "Clock", label: "РЕЖИМ РАБОТЫ", content: ["Пн–Пт: 10:00 — 20:00", "Сб–Вс: 10:00 — 18:00"] },
+                { icon: "Clock", label: "РЕЖИМ РАБОТЫ", content: ["Пн–Пт: 09:00 — 19:00", "Сб: 09:00 — 16:00", "Вс: 10:00 — 17:00"] },
               ].map((item) => (
                 <div key={item.label} className="flex items-start gap-4">
                   <Icon name={item.icon} size={18} className="text-muted-foreground mt-0.5 flex-shrink-0" />
