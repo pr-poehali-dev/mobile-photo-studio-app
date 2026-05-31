@@ -321,7 +321,7 @@ export default function Index() {
           <div className="bg-background p-8 sm:p-12 space-y-8">
             <div className="space-y-6">
               {[
-                { icon: "MapPin", label: "АДРЕС", content: ["ул. Пушкина, 14, 2 этаж, офис 201", "Москва, метро Тверская"] },
+                { icon: "MapPin", label: "АДРЕС", content: ["ул. Коммуны, дом 26А, цокольный этаж", "г. Сысерть"] },
                 { icon: "Phone", label: "ТЕЛЕФОН", content: ["+7 906 805-54-00", "+7 34374 6-04-00"] },
                 { icon: "Mail", label: "ПОЧТА", content: ["photo_nv@mail.ru"] },
                 { icon: "Clock", label: "РЕЖИМ РАБОТЫ", content: ["Пн–Пт: 09:00 — 19:00", "Сб: 09:00 — 16:00", "Вс: 10:00 — 17:00"] },
