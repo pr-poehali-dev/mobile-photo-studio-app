@@ -17,7 +17,7 @@ const services = [
 
 const pricing = [
   {
-    name: "Старт", price: "4 900", description: "Для тех, кто хочет попробовать", highlight: false,
+    name: "Эконом", price: "4 900", description: "Для тех, кто хочет попробовать", highlight: false,
     features: ["1 час съёмки", "30 обработанных фото", "1 образ / 1 локация", "Сдача за 7 дней"],
   },
   {
